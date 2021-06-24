@@ -1,0 +1,27 @@
+/* utilities */
+
+.bg-gray {
+   background-color: rgb(54, 54, 54); 
+}
+
+.font-white {
+    color: white;
+}
+
+/* header */
+
+#header-top .img-container {
+    width: 100px;
+}
+
+#main-nav .nav-link {
+    color: black;
+}
+
+#main-nav .nav-link i {
+    color: lightgray;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 3px;
+}
