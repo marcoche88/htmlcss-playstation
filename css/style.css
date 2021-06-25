@@ -20,6 +20,10 @@
     background-color: rgb(190, 71, 37);
 }
 
+.bg-dark-blue {
+    background-color: rgb(22, 29, 57);
+}
+
 .font-white {
     color: white;
 }
@@ -49,8 +53,8 @@
     filter: opacity(50%);
 }
 
-.h-220 {
-    height: 220px;
+.h-240 {
+    height: 240px;
 }
 
 /* header */
@@ -105,7 +109,7 @@
 /* media query */
 
 @media screen and (min-width: 768px) {
-    .h-220 {
+    .h-240 {
         height: auto;
     }
 }
