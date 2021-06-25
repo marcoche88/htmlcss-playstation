@@ -8,6 +8,14 @@
    background-color: rgb(31, 31, 31); 
 }
 
+.bg-grey-3 {
+    background-color: rgb(190, 188, 187);
+}
+
+.bg-grey-4 {
+    background-color: rgba(220, 222, 224, 0.9);
+}
+
 .bg-red {
     background-color: rgb(190, 71, 37);
 }
@@ -24,6 +32,10 @@
     color: rgb(55, 124, 202);
 }
 
+.font-blue-2 {
+    color: rgb(45, 100, 230);
+}
+
 .rounded-4 {
     border-radius: 15px;
 }
@@ -35,6 +47,10 @@
 
 .opacity-50 {
     filter: opacity(50%);
+}
+
+.h-220 {
+    height: 220px;
 }
 
 /* header */
@@ -84,5 +100,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* media query */
+
+@media screen and (min-width: 768px) {
+    .h-220 {
+        height: auto;
+    }
 }
 
