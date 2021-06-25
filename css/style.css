@@ -112,5 +112,9 @@
     .h-240 {
         height: auto;
     }
+
+    #social .col-sm-3 {
+        width: 150px;
+    }
 }
 
