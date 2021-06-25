@@ -1,7 +1,11 @@
 /* utilities */
 
-.bg-grey {
-   background-color: rgb(54, 54, 54); 
+.bg-grey-1 {
+    background-color: rgb(54, 54, 54);
+}
+
+.bg-grey-2 {
+   background-color: rgb(31, 31, 31); 
 }
 
 .bg-red {
@@ -62,6 +66,16 @@
     background-size: cover;
 }
 
+/* info ps5 */
+
+.ps-5-active {
+    border: 3px solid #0d6efd;
+}
+
+.ps-5-active-b {
+    border-bottom: 3px solid #0d6efd;
+}
+
 /* jumbotron 2 */
 
 #jumbo-takes {
@@ -71,3 +85,4 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
