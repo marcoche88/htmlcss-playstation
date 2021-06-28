@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PlayStation - Game</title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==' crossorigin='anonymous'/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+
+      <!-- header -->
+      <header class="fixed-top">
+        <div id="header-top" class="bg-dark d-flex justify-content-end align-items-center">
+            <div class="img-container">
+                <img src="./img/sony_logo.svg" class="img-fluid p-2" alt="logo">
+            </div>
+        </div>
+
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                  <img src="./img/play_logo.svg" alt="play-logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-dropdown">
+                            <a class="nav-link" href="./game.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giochi <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Novità <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div id="dropdown-menu-left" class="container-fluid text-center">
+                                <div class="row justify-content-center">
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="#"><img src="./img/play-menu-ico.png" class="img-fluid w-50" alt="play-menu"></a>
+                                                <p>PS Store</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="./img/play-menu-ico.png" class="img-fluid w-50" alt="play-menu"></a>
+                                                <p>PS Store</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="./img/play-menu-ico.png" class="img-fluid w-50" alt="play-menu"></a>
+                                                <p>PS Store</p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <div class="row shopping">
+                                    <ul class="col py-4">
+                                        <li class="pe-5"><a href="#">Acquista giochi per PS5</a></li>
+                                        <li class="pe-5"><a href="#">Acquista giochi per PS4</a></li>
+                                        <li class="pe-5"><a href="#">Acquista PlayStation Plus</a></li>
+                                        <li class="pe-5"><a href="#">Acquista PS4</a></li>
+                                        <li class="pe-5"><a href="#">Acquista PS VR</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li id="my-play" class="nav-item">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My PlayStation <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div id="dropdown-menu-right" class="container-fluid text-center">
+                                <div class="row justify-content-center">
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <a href="#"><img src="./img/play-menu-ico.png" class="img-fluid w-50" alt="play-menu"></a>
+                                                <p>PS5</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="./img/play-menu-ico.png" class="img-fluid w-50" alt="play-menu"></a>
+                                                <p>PS5</p>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="./img/play-menu-ico.png" class="img-fluid w-50" alt="play-menu"></a>
+                                                <p>PS5</p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-3">
+                            <div class="button">
+                                <div class="btn bg-grey-1 font-white rounded-pill">Accedi</div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link w-75 pe-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/lens.svg" alt="lens" class="img-fluid w-75">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- jumbotron game 1 -->
+    <section id="jumbo-spiderman">
+        <div class="container font-white h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-12 col-lg-4 pb-5">
+                    <img src="./img/ps-5-logo.png" class="img-fluid" alt="ps5-spiderman">
+                    <div class="h1 py-4 fw-light">I giochi che desideri</div>
+                    <p class="h2 pb-3 fw-light">I giochi che desideri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- video playstation -->
+    <section id="video-ps" class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <div class="img-container py-5">
+                    <img src="./img/video-play.jpg" class="img-fluid" alt="video-play">
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- footer -->
+      <footer class="bg-light-blue font-white mt-5">
+        <div class="container pb-5">
+            
+            <div class="row pb-3 gy-5">
+                <div class="col-12 col-lg-6">
+                    <img src="./img/ps-footer.svg" class="img-fluid w-20 mb-5" alt="ps-logo-footer">
+                    <div class="country">
+                        <img src="./img/language-globe.svg" id="globe-footer" class="img-fluid" alt="globe">
+                        <span class="ps-2">Country / Region: Italy</span>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <ul>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <ul>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <ul>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                                <li><a href="#">Link footer n</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+               <div class="col-12 col-lg-6">
+                <img src="./img/sie-logo.svg" class="img-fluid w-20" alt="sie">
+                <p class="pt-2">Website &copy;2021 Sony Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti sono riservati. <a href="#" class="font-white">Maggiori info</a></p>  
+               </div> 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
