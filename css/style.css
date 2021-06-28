@@ -83,6 +83,10 @@ div.button:hover {
     width: 100px;
 }
 
+#main-nav {
+    position: relative;
+}
+
 #main-nav .nav-link {
     color: black;
 }
@@ -106,6 +110,43 @@ div.button:hover {
 
 #main-nav div.button:hover {
     border-color: rgb(54, 54, 54, 0.8);
+}
+
+#dropdown-menu-right,
+#dropdown-menu-left {
+    display: none;
+}
+
+.ms-dropdown:hover #dropdown-menu-left,
+#my-play:hover #dropdown-menu-right {
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    right: 0;
+}
+
+.shopping {
+    border-top: 1px solid rgba(54, 54, 54, 0.5);
+}
+
+.shopping ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#dropdown-menu-left .shopping ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.shopping ul li::before {
+    content: "\2022";
+    color: rgb(45, 100, 230);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 /* jumbotron 1 */
