@@ -65,6 +65,18 @@
     width: 20%;
 }
 
+div.button:hover .btn {
+    color: white;
+    padding: 2px 8px;
+    margin: 2px;
+}
+
+div.button:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50rem;
+}
+
 /* header */
 
 #header-top .img-container {
@@ -83,6 +95,19 @@
     padding-left: 3px;
 }
 
+#main-nav ul li:hover a,
+#main-nav ul li:hover a i {
+    color: rgb(45, 100, 230);
+}
+
+#main-nav div.button:hover .btn {
+    background-color: rgb(54, 54, 54, 0.8);
+}
+
+#main-nav div.button:hover {
+    border-color: rgb(54, 54, 54, 0.8);
+}
+
 /* jumbotron 1 */
 
 #jumbo-returnal {
@@ -92,6 +117,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#jumbo-returnal div.button:hover {
+    border-color: rgb(190, 71, 37);
 }
 
 /* info ps5 */
@@ -104,6 +133,29 @@
     border-bottom: 3px solid #0d6efd;
 }
 
+#ps-5 img.rounded-4 {
+    position: relative;
+    top: 0;
+    transition: top 200ms linear;
+}
+
+#ps-5 img.rounded-4:hover {
+    top: -10px;
+}
+
+#ps-5 div.button:hover,
+#ps-4 div.button:hover {
+    border-color: rgb(13, 110, 253);
+}
+
+#ps-5 img.opacity-50 {
+    transition: filter 200ms linear;
+}
+
+#ps-5 img.opacity-50:hover {
+    filter: opacity(100%);
+}
+
 /* jumbotron 2 */
 
 #jumbo-takes {
@@ -112,6 +164,33 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#jumbo-takes div.button:hover {
+    border-color: rgb(190, 71, 37);
+}
+
+/* jumbotron 3 */
+
+#jumbo-plus div.button:hover .btn {
+    color: rgb(45, 100, 230);
+    filter: opacity(80%);
+    padding: 6px 12px;
+    margin: 0;
+}
+
+#jumbo-plus div.button:hover {
+    border: none;
+}
+
+/* jumbotron 4 */
+
+#jumbo-now div.button:hover .btn {
+    color: black;
+}
+
+#jumbo-now div.button:hover {
+    border-color: white;
 }
 
 /* footer */
@@ -133,6 +212,15 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer p a:hover {
     color: white;
 }
 
