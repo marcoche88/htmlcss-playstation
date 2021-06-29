@@ -326,7 +326,8 @@ footer p a:hover {
 #spiderman-section div.button:hover,
 #ratchet-section div.button:hover,
 #games div.button:hover,
-#fifa-section div.button:hover {
+#fifa-section div.button:hover,
+#nba-section div.button:hover {
     border-color: rgb(13, 110, 253);
 }
 
