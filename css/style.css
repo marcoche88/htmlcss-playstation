@@ -321,14 +321,15 @@ footer p a:hover {
     color: red;
 }
 
-/* gioco spiderman  */
+/* gioco spiderman, ratchet e games  */
 
 #spiderman-section div.button:hover,
-#ratchet-section div.button:hover {
+#ratchet-section div.button:hover,
+#games div.button:hover {
     border-color: rgb(13, 110, 253);
 }
 
-/* gioco horizon */
+/* gioco horizon e gt7 */
 
 #horizon-section div.button:hover .btn,
 #gt7-section div.button:hover .btn {
