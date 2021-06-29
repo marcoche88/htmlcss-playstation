@@ -97,6 +97,41 @@ div.button:hover {
     border-radius: 50rem;
 }
 
+.button.border-blue:hover {
+    border-color: rgb(13, 110, 253);
+}
+
+.button.border-white:hover .btn {
+    color: black;
+}
+
+.button.border-white:hover {
+    border-color: white;
+}
+
+.button.border-red:hover {
+    border-color: rgb(190, 71, 37);
+}
+
+.button.no-border:hover {
+    border: none;
+}
+
+.button.no-border:hover .btn {
+    color: rgb(45, 100, 230);
+    filter: opacity(80%);
+    padding: 6px 12px;
+    margin: 0;
+}
+
+.button.border-grey:hover {
+    border-color: rgb(54, 54, 54, 0.8);
+}
+
+.button.border-grey:hover .btn {
+    background-color: rgb(54, 54, 54, 0.8);
+}
+
 /* header */
 
 #header-top .img-container {
@@ -122,14 +157,6 @@ div.button:hover {
 #main-nav ul li:hover a,
 #main-nav ul li:hover a i {
     color: rgb(45, 100, 230);
-}
-
-#main-nav div.button:hover .btn {
-    background-color: rgb(54, 54, 54, 0.8);
-}
-
-#main-nav div.button:hover {
-    border-color: rgb(54, 54, 54, 0.8);
 }
 
 #dropdown-menu-right,
@@ -179,10 +206,6 @@ div.button:hover {
     background-size: cover;
 }
 
-#jumbo-returnal div.button:hover {
-    border-color: rgb(190, 71, 37);
-}
-
 /* info ps5 */
 
 .ps-5-active {
@@ -203,11 +226,6 @@ div.button:hover {
     top: -10px;
 }
 
-#ps-5 div.button:hover,
-#ps-4 div.button:hover {
-    border-color: rgb(13, 110, 253);
-}
-
 #ps-5 img.opacity-50 {
     transition: filter 200ms linear;
 }
@@ -223,33 +241,6 @@ div.button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#jumbo-takes div.button:hover {
-    border-color: rgb(190, 71, 37);
-}
-
-/* jumbotron 3 */
-
-#jumbo-plus div.button:hover .btn {
-    color: rgb(45, 100, 230);
-    filter: opacity(80%);
-    padding: 6px 12px;
-    margin: 0;
-}
-
-#jumbo-plus div.button:hover {
-    border: none;
-}
-
-/* jumbotron 4 */
-
-#jumbo-now div.button:hover .btn {
-    color: black;
-}
-
-#jumbo-now div.button:hover {
-    border-color: white;
 }
 
 /* footer */
@@ -323,34 +314,6 @@ footer p a:hover {
 
 #video-ps .img-container:hover i {
     color: red;
-}
-
-/* gioco spiderman, ratchet, games, fifa, nba, gta  */
-
-#spiderman-section div.button:hover,
-#ratchet-section div.button:hover,
-#games div.button:hover,
-#fifa-section div.button:hover,
-#nba-section div.button:hover,
-#gta-section div.button:hover,
-#avengers-section div.button:hover {
-    border-color: rgb(13, 110, 253);
-}
-
-/* gioco horizon, gt7, cod */
-
-#horizon-section div.button:hover .btn,
-#gt7-section div.button:hover .btn,
-#cod-section div.button:hover .btn,
-#residentevil-section div.button:hover .btn {
-    color: black;
-}
-
-#horizon-section div.button:hover,
-#gt7-section div.button:hover,
-#cod-section div.button:hover,
-#residentevil-section div.button:hover {
-    border-color: white;
 }
 
 /* gioco fifa */
