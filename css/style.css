@@ -399,3 +399,20 @@ footer p a:hover {
     position: absolute;
     z-index: -1;   
   }
+
+  /* gioco hogwarts legacy */
+
+  #hogwarts-section::after {
+    content: "";
+    background: url('../img/hogwarts-legacy-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(50%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
