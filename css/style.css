@@ -321,25 +321,30 @@ footer p a:hover {
     color: red;
 }
 
-/* gioco spiderman, ratchet e games  */
+/* gioco spiderman, ratchet, games, fifa, nba, gta  */
 
 #spiderman-section div.button:hover,
 #ratchet-section div.button:hover,
 #games div.button:hover,
 #fifa-section div.button:hover,
-#nba-section div.button:hover {
+#nba-section div.button:hover,
+#gta-section div.button:hover {
     border-color: rgb(13, 110, 253);
 }
 
-/* gioco horizon e gt7 */
+/* gioco horizon, gt7, cod */
 
 #horizon-section div.button:hover .btn,
-#gt7-section div.button:hover .btn {
+#gt7-section div.button:hover .btn,
+#cod-section div.button:hover .btn,
+#residentevil-section div.button:hover .btn {
     color: black;
 }
 
 #horizon-section div.button:hover,
-#gt7-section div.button:hover {
+#gt7-section div.button:hover,
+#cod-section div.button:hover,
+#residentevil-section div.button:hover {
     border-color: white;
 }
 
@@ -352,6 +357,40 @@ footer p a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  /* gioco cod */
+
+  #cod-section::after {
+    content: "";
+    background: url('../img/call-of-duty-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(50%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  /* gioco resident evil */
+
+  #residentevil-section::after {
+    content: "";
+    background: url('../img/resident-evil-bg.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(50%);
     top: 0;
     left: 0;
     bottom: 0;
