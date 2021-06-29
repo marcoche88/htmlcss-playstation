@@ -328,7 +328,8 @@ footer p a:hover {
 #games div.button:hover,
 #fifa-section div.button:hover,
 #nba-section div.button:hover,
-#gta-section div.button:hover {
+#gta-section div.button:hover,
+#avengers-section div.button:hover {
     border-color: rgb(13, 110, 253);
 }
 
