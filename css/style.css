@@ -325,7 +325,8 @@ footer p a:hover {
 
 #spiderman-section div.button:hover,
 #ratchet-section div.button:hover,
-#games div.button:hover {
+#games div.button:hover,
+#fifa-section div.button:hover {
     border-color: rgb(13, 110, 253);
 }
 
@@ -340,3 +341,20 @@ footer p a:hover {
 #gt7-section div.button:hover {
     border-color: white;
 }
+
+/* gioco fifa */
+
+#fifa-section::after {
+    content: "";
+    background: url('../img/fifa-21-bg.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
