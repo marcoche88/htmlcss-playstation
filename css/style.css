@@ -16,6 +16,14 @@
     background-color: rgba(220, 222, 224, 0.9);
 }
 
+.bg-grey-5 {
+    background-color: rgb(238, 238, 238);
+}
+
+.bg-grey-6 {
+    background-color: rgba(117, 117, 117, 0.8);
+}
+
 .bg-red {
     background-color: rgb(190, 71, 37);
 }
@@ -26,6 +34,10 @@
 
 .bg-light-blue {
     background-color: rgb(0, 67, 156);
+}
+
+.bg-green {
+    background-color: rgba(85, 118, 131, 0.9);
 }
 
 .font-white {
@@ -293,6 +305,10 @@ footer p a:hover {
     position: relative;
 }
 
+#video-ps img {
+    cursor: pointer;
+}
+
 #video-ps .img-container i {
     font-size: 80px;
     position: absolute;
@@ -303,4 +319,23 @@ footer p a:hover {
 
 #video-ps .img-container:hover i {
     color: red;
+}
+
+/* gioco spiderman  */
+
+#spiderman-section div.button:hover,
+#ratchet-section div.button:hover {
+    border-color: rgb(13, 110, 253);
+}
+
+/* gioco horizon */
+
+#horizon-section div.button:hover .btn,
+#gt7-section div.button:hover .btn {
+    color: black;
+}
+
+#horizon-section div.button:hover,
+#gt7-section div.button:hover {
+    border-color: white;
 }
